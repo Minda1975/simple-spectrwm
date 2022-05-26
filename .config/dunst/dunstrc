@@ -1,0 +1,49 @@
+[global]
+    follow               = mouse
+    geometry             = "350x5-40+30"
+    shrink               = true
+    separator_height     = 1
+    padding              = 8
+    horizontal_padding   = 8
+    frame_width          = 2
+    separator_color      = frame
+    font                 = Ubuntu Mono 12
+    markup               = full
+    format               = "<b>%s</b>\n%b"
+    show_age_threshold   = 60
+    word_wrap            = true
+    hide_duplicate_count = true
+
+    mouse_middle_click   = close_all
+    mouse_right_click    = do_action
+
+[shortcuts]
+    close     = ctrl+space
+    close_all = ctrl+shift+space
+    history   = ctrl+grave
+    context   = ctrl+shift+period
+
+[urgency_low]
+    background  = "#282828"
+    foreground  = "#ebdbb2"
+    frame_color = "#928374"
+    timeout     = 5
+
+[urgency_normal]
+    background  = "#d79921"
+    foreground  = "#282828"
+    frame_color = "#282828"
+    timeout     = 5
+
+[urgency_critical]
+    background  = "#fb4934"
+    foreground  = "#282828"
+    frame_color = "#282828"
+    timeout     = 0
+
+[vb-control]
+    appname = vb
+    format  = %s
+    timeout = 1
+
+
