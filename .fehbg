@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/azg256/Paveikslėliai/Wall/2.png' 
