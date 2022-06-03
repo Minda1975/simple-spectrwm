@@ -1,0 +1,37 @@
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#browser
+super + t; x
+        firefox-esr
+
+#terminal
+super + t; C
+       kitty
+
+#temp
+super + t; a
+       ~/scripts/temp
+
+#dmenu
+super + t; p
+       dmenu_run
+
+#Poweroff
+super + shift + x
+	prompt "Shutdown computer?" "systemctl poweroff -i"
+
+#Reboot
+super + shift + BackSpace
+	prompt "Reboot computer?" "systemctl reboot"
+
+#kill xorg
+super + shift + Escape
+	prompt 'Leave Xorg?' 'killall Xorg'
+
+#Dmenu unicode
+super + grave
+	dmenuunicode
+super + Insert
+	showclip
