@@ -1,0 +1,15 @@
+set winname title
+set winfmt %n %s %t
+set msgwait 3
+set winliststyle column
+set rudeness 12
+set warp on
+addhook key banish
+set border 0 
+set padding 0 0 0 0
+set barpadding 0 0 
+
+
+
+
+
