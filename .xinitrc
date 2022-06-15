@@ -1,7 +1,9 @@
+xrdb ~/.Xresources
+
 setxkbmap -layout "us,lt,ru" -option "grp:menu_toggle"
 
-~/.fehbg
+xsetroot -solid "#002b36"
 
-dunst &
 
-exec ~/scripts/startdwm
+
+exec $HOME/.cache/xmonad/xmonad-x86_64-linux
